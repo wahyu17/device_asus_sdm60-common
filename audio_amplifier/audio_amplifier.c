@@ -206,7 +206,6 @@ static int amp_module_open(const hw_module_t* module, const char* name, hw_devic
     tfa_dev->amp_dev.set_parameters = NULL;
     tfa_dev->amp_dev.out_set_parameters = NULL;
     tfa_dev->amp_dev.in_set_parameters = NULL;
-    tfa_dev->amp_dev.set_feedback = amp_set_feedback;
 
     *device = (hw_device_t*)tfa_dev;
 
